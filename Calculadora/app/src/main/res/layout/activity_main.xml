@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center" android:layout_height="match_parent" android:layout_width="match_parent"
+    android:background="@color/background"
+    android:id="@+id/main">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="@color/background2"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:paddingTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/valor1"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/valor1"
+        android:textAlignment="center"
+        android:textColor="@color/background2"
+        android:inputType="numberDecimal"
+        />
+
+    <TextView
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/valor2"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/valor2"
+        android:textAlignment="center"
+        android:textColor="@color/background2"
+        android:inputType="numberDecimal"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:id="@+id/resultado"
+        android:textAlignment="center"
+        android:textColor="@color/background2"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/somar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/somar" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/subtrair"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subtrair" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/multiplicar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/multiplicar" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/dividir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dividir" />
+
+</LinearLayout>
